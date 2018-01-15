@@ -1,0 +1,238 @@
+<!DOCTYPEHTML>
+<html>
+  <head>
+    <title>Programming Languages</title>
+  </head>
+<body>
+  <p id="top"></p>
+    <img class="foto-logoleft" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Circle-icons-dev.svg/1024px-Circle-icons-dev.svg.png" alt="logo">
+    <p class="container">Programming Languages</p>  
+ 
+  <img class="foto-logoright" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Circle-icons-dev.svg/1024px-Circle-icons-dev.svg.png" alt="logo">
+   <br>
+  <center>
+  <img class="foto-header" src="https://www.unixmen.com/wp-content/uploads/2015/10/Programming-and-its-ways.png" alt="Programming languages"></center>
+  
+ 
+  <br>
+<div>
+  <h2>Foreword</h2>
+  <p class="text-just">
+Which programming language to choose? Whats the difference between C and C++? What's the whole deal about functional programming? In this article we will give an overview about the major programming languages, provide a code sample for each one and talk about the characteristics a bit.</p>
+  </div>
+  <br>
+  <div>
+    <h2>The Overview</h2>
+    <p class="text-just">
+      There are a lot of programming langues, but we will only cover the most popluar ones here:</p>
+  </div><br>
+  <ul>
+    <li><a href="#java">JAVA</a></li>
+    <li><a href="#csh">C#</a></li>
+    <li><a href="#cplus">C++</a></li>
+    <li><a href="#c">C</a></li>
+    <li><a href="#python">Python</a></li>
+    <li><a href="#php">PHP</a></li>
+    <li><a href="#ruby">Ruby</a></li>
+    <li><a href="#jscript">Javascript</a></li>
+    <li><a href="#assembly">Assembly</a></li>
+  </ul>
+  <div>
+    <h2> Object Oriented</h2> 
+    <p class="text-just">means that the language works with objects, like Player(which has health and mana), Monster, World and so on. Object oriented languages usually deal with Objects all the time, for example when adding a Player to the World. Object Oriented languages are usually easy to learn and understand.</p>
+
+  <h2> Functional languages</h2> 
+    <p class="text-just">are very close to pure Math. In functional languages it's often easy to solve complex problems, but harder to do simpler things. For example: pathfinding can be done with 10 lines of code in a functional language, even though it takes about 1000 lines of code in a Object Oriented one. Functional languages are hard to learn and to understand, but they can be incredibly powerful.</p>
+  </div>
+  <br><br>
+  <!-- JAVA language -->
+<div>
+  <span class="text-big" id="java">Java</span>
+  <img class="languages-logo" src="https://jordanhall.co.uk/wp-content/uploads/2012/06/java.jpg" alt="java logo">
+  <br>
+  <p class="text-just">
+Java is a object oriented programming language. It runs about everywhere, writing code can be very comfortable due to the Eclipse IDE. The code is executed in a Virtual Machine and sometimes Java programs can take a whole lot of RAM. Java is a good choice for a whole lot of fields. While it's not always optimal, it's still often a solid choice.</p>
+  <p><strong> Some typical Java code:</strong></p>
+  
+  <p class="table-example">    
+  void test()<br> {<br>
+    Player p = new Player("SomeName");<br>
+    p.moveTo(new Vector3(1.0f, 2.0f, 3.0f));<br>
+    someFunction(p);<br>
+}
+      
+  </p>
+  </div>
+  <br>
+  
+  <!-- C# language -->
+<div>
+  <span class="text-big" id="csh">C#</span>
+  <img class="languages-logo" src="http://devstickers.com/assets/img/pro/2p4i.png" alt="C# logo">
+  <br>
+  <p class="text-just">
+  C# is pretty much Java reinvented by Microsoft. There are a few little differences, but the syntax is almost exactly the same. C# uses the .NET framework a lot, which is a big library of functions developed by Microsoft. If you are a fan of Microsoft, then this might be a good language for you.</p>
+  <p><strong> Some typical C# code:</strong></p>
+  <p class="table-example"> 
+    void test() <br>
+{<br>
+    Player p = new Player("SomeName");<br>
+    p.runTowards(new Vector3(1.0f, 2.0f, 3.0f));<br>
+    someFunction(p);<br>
+}
+  </p>  
+  </div>
+  <br>
+  
+  <!-- C++ language -->
+  <div>
+    <span class="text-big" id="cplus">C++</span>
+    <img class="languages-logo" src="https://www.cbronline.com/wp-content/uploads/2016/07/C.png" alt="cplus logo">
+    <br>
+    <p class="text-just">
+    C++ is like Objective-C, just with a whole lot of more features. There is an endless discussion going on about if this is a good or a bad thing. If you like simplicity, then this is a bad thing. Due to the language being so incredibly complex, reading other peoples code is hard. Say that we want to use someones physics library in our game. This task can be so incredibly frustrating in C++, it can easily take a week of fixing linker errors (even if you already know C++ for 6 years or so).</p>
+<p><strong> Some typical C++ code:</strong></p>
+  <p class="table-example">
+    
+    // my first program in C++<br>
+#include &lt; iostream &gt; <br>
+
+int main()<br>
+{<br>
+  std::cout << "Hello World!"; <br>
+}
+    
+    </p>  
+  </div>
+    <br>
+    <!-- C language -->
+
+<div>
+    <span class="text-big" id="c">C</span>
+  <img class="languages-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/C_Train_%281985-1987%29.svg/1000px-C_Train_%281985-1987%29.svg.png" alt="c logo">
+  <br>
+  <p class="text-just">
+  C is a very system near language, completely without objects. We can do a whole lot of crazy things, like developing operating systems or creating drivers for our hardware. Of course making games is possible too. The language itself is loved for its simplicity, yet it can be hard to learn and managing your our own memory or messing around with Pointers easily leads to bugs in the code.</p>
+  <p><strong> Some typical C code:</strong></p>
+  <p class="table-example"> 
+  float vec2_length( const float v[2] )<br>
+{<br>
+    return sqrt( ( v[0] * v[0] ) + ( v[1] * v[1] ) );<br>
+}
+</p>  
+  </div>
+    <br>
+    
+    <!-- Python language-->
+    
+<div>
+    <span class="text-big" id="python">Python</span>
+  <img class="languages-logo" src="https://pluralsight.imgix.net/paths/python-7be70baaac.png" alt="Python logo">
+  <br>
+  <p class="text-just">
+  A lot of programmers fell in love with the Python language. It's a rapid development language, which means that it saves us a lot of time when developing programs. It works well with functional programming styles, but object orientation can be used as well. One of the major characteristics of the language is the importance of intendention to organise blocks of code. Python is a general purpose language, and it's definitely worth a look no matter what you want to develope. Note that according to the developers a program in Python can take up to 15x less code than in other languages like Java.</p>
+  <p><strong> Some typical Python code:</strong></p>
+  <p class="table-example"> 
+def fac(n): <br>
+    if n <= 1: <br>
+        return 1 <br>
+    return n * fac(n - 1)
+    </p>  
+  </div>
+    <br>
+
+<!-- PHP language -->
+    
+<div>
+    <span class="text-big" id="php">PHP</span>
+  <img class="languages-logo" src="http://www.unixstickers.com/image/data/stickers/php/php.sh.png" alt="php logo">
+  <br>
+  <p class="text-just">
+  PHP is mostly used for web servers. If we open a website in our browser, it's very likely that the site was created by some PHP code running on the webserver. PHP can come in handy when making browser games, but for the common singleplayer 3D game it's not very suitable.</p>
+  <p><strong> Some typical PHP code:</strong></p>
+  <p class="table-example"> 
+$s = 'someText'; <br>
+if(function_exists('someFunction')) <br>
+{  <br>
+        $something = true; <br>
+}
+    </p>  
+  </div>
+    <br>
+    
+<!-- Ruby language -->
+    <div>
+    <span class="text-big" id="ruby">Ruby</span>
+  <img class="languages-logo" src="https://www.vskills.in/certification/blog/wp-content/uploads/2014/12/ruby-a-programmers-best-friend-indeed.png" alt="ruby logo">
+      <br>
+  <p class="text-just">
+    Ruby is not used very often to make games. It's basically a object oriented scripting language.</p>
+  <p><strong> Some typical Ruby code:</strong></p>
+  <p class="table-example"> 
+    do<br>
+  puts "Hello World"<br>
+end
+    </p>  
+  </div>
+    <br>
+    
+    <!-- javascript language -->
+    
+    
+      <div>
+    <span class="text-big" id="jscript">JavaScript</span>
+  <img class="languages-logo" src="http://html5beginners.com/wp-content/uploads/2014/09/java.png" alt="javascript logo">
+        <br>
+  <p class="text-just">
+    As the name says, JavaScript is a scripting language as well. It's mostly used on websites and it's very easy to learn. The language is hated by a lot of people due to its slowness and security vulnerabilities, and because it's used to display advertisements often.</p>
+  <p><strong> Some typical JavaScript code:</strong></p>
+  <p class="table-example"> 
+    function message()<br>
+{<br>
+try<br>
+  {<br>
+  adddlert("Test");<br>
+  }<br>
+catch(err)<br>
+  {<br>
+  alert("There was an error");<br>
+  }<br>
+}
+        </p>  
+  </div>
+    <br>
+    
+<!-- assembly language -->
+    
+<div>
+    <span class="text-big" id="assembly">Assembly</span>
+  <img class="languages-logo" src="http://is4.mzstatic.com/image/thumb/Purple7/v4/5c/7b/4f/5c7b4f74-2d61-14fc-8d0d-1747a964304b/source/1200x630bb.jpg" alt="assembly logo">
+  <br>
+  <p class="text-just">
+    Assembly is raw machine code. This is what our computer reads when he executes a program. Other languages are always a layer of abstraction to make things easier for us humans, but in the end they are almost always translated to Assembly, so the machines can understand the code.</p>
+  <p><strong> Some typical Assembly code:</strong></p>
+  <p class="table-example">
+    mov eax, edx<br>
+add eax, 3<br>
+push eax
+    </p>  
+  </div>
+    <br>
+    <br>
+    <span style="font-size:14px;font-family:sans-serif;padding-top:5px;" class="ex-links container">
+      
+      <a href="https://noobtuts.com/articles/programming-languages-overview">
+More Info over Programming Languages</a> 
+| <a href="mailto:gaorieh@hotmail.com"> Send Email</a> | 
+<a href="#top"> Go to Top</a>
+      <br><br>
+    <span style="float:center;clear:center;padding-top:50px;color:black;"> Designed By: Gaorieh Isaac</span><br>
+    
+      <a href="https://www.facebook.com/G.isaac.1985">
+      <img style="float:center;padding-left:10px;padding-top:5px;clear:left" src="http://icons.iconarchive.com/icons/yootheme/social-bookmark/512/social-facebook-button-blue-icon.png" width="30px" alt="facebook logo" title="My Facebook"></a> 
+<a href="https://www.khanacademy.org/profile/gaorieh"><img style="float:center;padding-left:10px;padding-top:5px;clear:left" src="http://www.danpontefract.com/wp-content/uploads/2012/02/khan.png" alt="twitter logo" width="30px" title="My Projects - Khan Academy"></a>
+       
+    
+    
+    </body>
+  </html>
