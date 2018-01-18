@@ -87,8 +87,8 @@ table th {
     text-align: justify;
 }
 .container {
-
-    width: 100%;
+position: relative;
+    width: 50%;
     height: 50px;
     line-height: 50px;
     background: rgb(216, 247, 107);
@@ -97,8 +97,11 @@ table th {
     font-size: 20px;
     color: darkblue;
     border: 0.5px dashed black;
-
-    margin: auto;
+margin-left: 300px;
+margin-right: 300px;
+margin-top: 30px;
+   width: 50%;
+   height: 50%;
 }
 .container1 {
     position: relative;
