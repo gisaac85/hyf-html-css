@@ -17,6 +17,7 @@
 body {
     border: 1px lightgray solid;
     max-width:100%;
+    font-size: 20px;
 
 }
 .header-list {
@@ -33,7 +34,7 @@ span {
     font-family: 'Times New Roman', Times, serif;
     margin-left: 70px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 22px;
 
 }
 .list-item {
@@ -172,4 +173,8 @@ margin-top: 30px;
     margin-left:70px;
     margin-bottom: 20px;
     
+    }
+    .mouse-over:hover
+    {
+        background-color: rgb(233, 201, 204);
     }
