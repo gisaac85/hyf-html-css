@@ -5,9 +5,9 @@
     grid-gap: 20px;
     align-items: baseline;
     justify-items: center;
-   margin-left: auto;
-   margin-right: auto;
-   padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
 }
 
 #grid-floats > .grid-item {
